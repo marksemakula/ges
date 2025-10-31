@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gombe Education Services (GES)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gill+Sans+MT&display=swap');
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Gill Sans MT';
+            background-color: #ffd700;
+            background-image: repeating-linear-gradient(
+                45deg,
+                #000000,
+                #000000 20px,
+                #ffd700 20px,
+                #ffd700 40px
+            );
+            overflow: hidden;
+        }
+        
+        .safe-zone {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            background-color: #ffd700;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo {
+            width: 400px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .message-container {
+            display: flex;
+            align-items: baseline;
+            font-size: 2em;
+        }
+        
+        .domain {
+            font-weight: bold;
+            color: #0066cc;
+            margin-right: 10px;
+        }
+        
+        .status {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="safe-zone">
+        <!-- Use ONE of these paths at a time - try them in order -->
+        <img src="./images/GES.png" alt="Keyawell Logo" class="logo">
+        <!-- <img src="images/Keyawell-Logo-1.png" alt="Keyawell Logo" class="logo"> -->
+        <!-- <img src="Keyawell-Logo-1.png" alt="Keyawell Logo" class="logo"> -->
+        
+        <div class="message-container">
+            <div class="domain">https://ges.ac.ug/</div>
+            <div class="status">is under maintenance</div>
+        </div>
+    </div>
+</body>
+</html>
